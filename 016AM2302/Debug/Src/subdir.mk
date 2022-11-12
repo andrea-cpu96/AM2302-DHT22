@@ -8,7 +8,6 @@ C_SRCS += \
 ../Src/am2302.c \
 ../Src/int.c \
 ../Src/main.c \
-../Src/onewire.c \
 ../Src/ports.c \
 ../Src/projectconf.c \
 ../Src/syscalls.c \
@@ -19,7 +18,6 @@ OBJS += \
 ./Src/am2302.o \
 ./Src/int.o \
 ./Src/main.o \
-./Src/onewire.o \
 ./Src/ports.o \
 ./Src/projectconf.o \
 ./Src/syscalls.o \
@@ -30,7 +28,6 @@ C_DEPS += \
 ./Src/am2302.d \
 ./Src/int.d \
 ./Src/main.d \
-./Src/onewire.d \
 ./Src/ports.d \
 ./Src/projectconf.d \
 ./Src/syscalls.d \
@@ -45,7 +42,7 @@ Src/%.o Src/%.su: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/am2302.d ./Src/am2302.o ./Src/am2302.su ./Src/int.d ./Src/int.o ./Src/int.su ./Src/main.d ./Src/main.o ./Src/main.su ./Src/onewire.d ./Src/onewire.o ./Src/onewire.su ./Src/ports.d ./Src/ports.o ./Src/ports.su ./Src/projectconf.d ./Src/projectconf.o ./Src/projectconf.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/systemfunctions.d ./Src/systemfunctions.o ./Src/systemfunctions.su
+	-$(RM) ./Src/am2302.d ./Src/am2302.o ./Src/am2302.su ./Src/int.d ./Src/int.o ./Src/int.su ./Src/main.d ./Src/main.o ./Src/main.su ./Src/ports.d ./Src/ports.o ./Src/ports.su ./Src/projectconf.d ./Src/projectconf.o ./Src/projectconf.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/systemfunctions.d ./Src/systemfunctions.o ./Src/systemfunctions.su
 
 .PHONY: clean-Src
 

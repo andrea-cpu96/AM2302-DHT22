@@ -1,7 +1,6 @@
 "./Src/am2302.o"
 "./Src/int.o"
 "./Src/main.o"
-"./Src/onewire.o"
 "./Src/ports.o"
 "./Src/projectconf.o"
 "./Src/syscalls.o"

@@ -8,6 +8,6 @@
 #ifndef AM2302_H_
 #define AM2302_H_
 
-void am2302_Read(uint8_t *dataBuff);
+void am2302_Read(float *temp, float *humi);
 
 #endif /* AM2302_H_ */
